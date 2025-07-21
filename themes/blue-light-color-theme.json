@@ -165,6 +165,7 @@
     "type.defaultLibrary": "#A56416",
     "type.definition": "#A56416",
     "type.interface": "#A65683",
+    "type.definition.interface": "#A65683",
     "variable.readonly": {
       "bold": true,
       "foreground": "#0049A9"
@@ -777,7 +778,7 @@
       "name": "declaration names",
       "scope": "storage.type.namespace, storage.type.function, storage.type.class, storage.type.interface, storage.type.type",
       "settings": {
-        "foreground": "#A56416"
+        "foreground": "#3778b7"
       }
     },
     {
