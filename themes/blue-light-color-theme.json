@@ -1,6 +1,4 @@
 {
-  "name": "Blue Light Theme",
-  "type": "light",
   "colors": {
     "activityBar.background": "#f8f8f8",
     "activityBar.foreground": "#aaaaaa",
@@ -20,7 +18,7 @@
     "dropdown.background": "#e2eeff",
     "dropdown.border": "#c2d0e5",
     "dropdown.foreground": "#3377b9",
-    "editor.background": "#ffffff",
+    "editor.background": "#fdfefc",
     "editor.findMatchBackground": "#007acc4d",
     "editor.findMatchHighlightBackground": "#d8efff",
     "editor.findRangeHighlightBackground": "#007acc00",
@@ -39,6 +37,7 @@
     "editorGroup.dropBackground": "#f1f1f1",
     "editorGroupHeader.noTabsBackground": "#f8f8f8",
     "editorGroupHeader.tabsBackground": "#f8f8f8",
+    "editorGroupHeader.tabsBorder": "#ffffff",
     "editorGutter.addedBackground": "#428226",
     "editorGutter.deletedBackground": "#A56416",
     "editorGutter.modifiedBackground": "#3778b7",
@@ -50,11 +49,11 @@
     "editorOverviewRuler.modifiedForeground": "#3778b7",
     "editorOverviewRuler.wordHighlightForeground": "#a56416",
     "editorOverviewRuler.wordHighlightStrongForeground": "#b052a1",
+    "editorSuggestWidget.background": "#fafafa",
     "editorSuggestWidget.border": "#e8e8e8",
     "editorSuggestWidget.foreground": "#5b7685",
-    "editorSuggestWidget.selectedForeground": "#50626b",
     "editorSuggestWidget.selectedBackground": "#e8e8e8",
-    "editorSuggestWidget.background": "#fafafa",
+    "editorSuggestWidget.selectedForeground": "#50626b",
     "editorSuggestWidget.selectedIconForeground": "#50626b",
     "editorWarning.foreground": "#428226",
     "editorWidget.background": "#ffffff",
@@ -99,6 +98,7 @@
     "peekViewTitleDescription.foreground": "#3778b7",
     "peekViewTitleLabel.foreground": "#b052a1",
     "progressBar.background": "#A56416",
+    "quickInputList.focusIconForeground": "#ffffff",
     "scrollbarSlider.activeBackground": "#b5b5b5",
     "scrollbarSlider.background": "#e8e8e8",
     "scrollbarSlider.hoverBackground": "#b5b5b5",
@@ -114,17 +114,16 @@
     "statusBar.foreground": "#6b6b6b",
     "statusBar.noFolderBackground": "#b052a1",
     "statusBar.noFolderForeground": "#ffffff",
-    "editorGroupHeader.tabsBorder": "#ffffff",
     "tab.activeBackground": "#ffffff",
     "tab.activeBorder": "#007acc",
     "tab.activeForeground": "#007acc",
     "tab.border": "#ffffff",
     "tab.hoverBackground": "#e8e8e8",
-    "tab.unfocusedHoverBorder": "#007acc",
     // seems to not work https://github.com/Microsoft/vscode-docs/issues/2264#issuecomment-445311699
     "tab.hoverBorder": "#ffffff",
     "tab.inactiveBackground": "#f8f8f8",
     "tab.inactiveForeground": "#7d95a1",
+    "tab.unfocusedHoverBorder": "#007acc",
     "terminal.ansiBlack": "#1a1a1a",
     "terminal.ansiBlue": "#3778b7",
     "terminal.ansiBrightBlack": "#9b9b9b",
@@ -149,16 +148,39 @@
     "textLink.foreground": "#3778b7",
     "titleBar.activeBackground": "#f8f8f8",
     "titleBar.activeForeground": "#6b6b6b",
-    "widget.shadow": "#eeeeee",
-    "quickInputList.focusIconForeground": "#ffffff"
+    "widget.shadow": "#eeeeee"
+  },
+  "name": "Blue Light Theme",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "function": "#296e0b",
+    "function.definition": {
+      "bold": true
+    },
+    "keyword": "#3778b7",
+    "method.definition": {
+      "bold": true
+    },
+    "namespace": "#694D79",
+    "type.defaultLibrary": "#A56416",
+    "type.definition": "#A56416",
+    "type.interface": "#A65683",
+    "variable.readonly": {
+      "bold": true,
+      "foreground": "#0049A9"
+    },
+    "variable.readonly.defaultLibrary": {
+      "bold": false,
+      "foreground": "#831F1B"
+    }
   },
   "tokenColors": [
     {
       "name": "Bold Function Definition",
       "scope": "entity.name.function.go, entity.name.function.python",
       "settings": {
-        "foreground": "#296e0b",
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#296e0b"
       }
     },
     {
@@ -172,7 +194,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#C7C4C2"
+        "foreground": "#969696"
       }
     },
     {
@@ -221,7 +243,7 @@
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#214666"
+        "foreground": "#831F1B"
       }
     },
     {
@@ -235,15 +257,15 @@
       "name": "User-defined constant",
       "scope": "constant.character, constant.other, variable.other.constant.go,",
       "settings": {
-        "foreground": "#0049A9",
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#0049A9"
       }
     },
     {
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -453,7 +475,7 @@
       "name": "Pageman Jekyll Liquid Language Support",
       "scope": "storage.type.liquid-g1.pageman, storage.type.liquid-g2.pageman",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#A56416"
       }
     },
     {
@@ -663,7 +685,7 @@
       "name": "Export Keyword",
       "scope": "keyword.control.export",
       "settings": {
-        "foreground": "#A56416"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -684,7 +706,7 @@
       "name": "Storage Types",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#A56416"
       }
     },
     {
@@ -698,7 +720,7 @@
       "name": "Operators",
       "scope": "keyword.operator.new, keyword.operator.expression.of, keyword.operator.expression.typeof, keyword.operator.expression.in",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -712,8 +734,8 @@
       "name": "Support Constants",
       "scope": "support.constant",
       "settings": {
-        "foreground": "#0049A9",
-        "fontStyle": "bold"
+        "fontStyle": "bold",
+        "foreground": "#0049A9"
       }
     },
     {
@@ -783,14 +805,14 @@
       "name": "JS DOC Type",
       "scope": "punctuation.definition.block.tag.jsdoc, storage.type.class.jsdoc",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#A56416"
       }
     },
     {
       "name": "JS DOC Entity Name",
       "scope": "entity.name.type.instance.jsdoc, punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#A56416"
       }
     },
     {
@@ -804,7 +826,7 @@
       "name": "TypeScript Types",
       "scope": "meta.type.annotation, entity.name.type, meta.brace.angle.ts, meta.brace.angle.tsx",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#A56416"
       }
     },
     {
@@ -923,21 +945,21 @@
       "name": "Logical Keywords",
       "scope": "keyword.operator.logical.python",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#3778b7"
       }
     },
     {
       "name": "Arythmetic Keywords",
       "scope": "keyword.operator.arithmetic.python",
       "settings": {
-        "foreground": "#A56416"
+        "foreground": "#3778b7"
       }
     },
     {
       "name": "Assignment Keywords",
       "scope": "keyword.operator.assignment.python",
       "settings": {
-        "foreground": "#A56416"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -965,7 +987,7 @@
       "name": "Package Keyword",
       "scope": "keyword.package.go",
       "settings": {
-        "foreground": "#A56416"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -979,28 +1001,28 @@
       "name": "Type Colors",
       "scope": "keyword.type.go, keyword.struct.go",
       "settings": {
-        "foreground": "#A56416"
+        "foreground": "#3778b7"
       }
     },
     {
       "name": "numbers",
       "scope": "constant.numeric.integer.go, constant.numeric.floating-point.go",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#831F1B"
       }
     },
     {
       "name": "Address Operator",
       "scope": "keyword.operator.address.go",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#3778b7"
       }
     },
     {
       "name": "Function Keyword",
       "scope": "keyword.function.go",
       "settings": {
-        "foreground": "#A56416"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -1042,7 +1064,7 @@
       "name": "C Keyword Operators",
       "scope": "keyword.operator.c",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -1056,7 +1078,7 @@
       "name": "C Sizeof Operator",
       "scope": "keyword.operator.sizeof.c",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -1126,7 +1148,7 @@
       "name": "Nearley Signs",
       "scope": "keyword.control.nearley",
       "settings": {
-        "foreground": "#A56416"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -1147,7 +1169,7 @@
       "name": "PEG Keyword",
       "scope": "keyword.operator.pegjs",
       "settings": {
-        "foreground": "#A56416"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -1189,7 +1211,7 @@
       "name": "PHP Namespace",
       "scope": "entity.name.type.namespace.php, support.other.namespace.php",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#A56416"
       }
     },
     {
@@ -1217,21 +1239,21 @@
       "name": "PHP Logical Operatiors",
       "scope": "keyword.operator.logical.php",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#3778b7"
       }
     },
     {
       "name": "PHP special keywords",
       "scope": "entity.name.goto-label.php",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#3778b7"
       }
     },
     {
       "name": "PHP Object Keys",
       "scope": "keyword.operator.key.php",
       "settings": {
-        "foreground": "#A56416"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -1273,14 +1295,14 @@
       "name": "fsharp numbers",
       "scope": "constant.numeric.fsharp, constant.numeric.integer.nativeint.fsharp",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#831F1B"
       }
     },
     {
       "name": "fshrap other keywords",
       "scope": "keyword.other.fsharp, constant.language.unit.fsharp",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -1294,14 +1316,14 @@
       "name": "Haskell Operators",
       "scope": "keyword.operator.haskell",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#3778b7"
       }
     },
     {
       "name": "Haskell numerals",
       "scope": "constant.numeric.haskell",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#831F1B"
       }
     },
     {
@@ -1371,7 +1393,7 @@
       "name": "Keyword",
       "scope": "keyword.operator.word.applescript",
       "settings": {
-        "foreground": "#B052A1"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -1413,7 +1435,7 @@
       "name": "Function Keywords",
       "scope": "keyword.control.function.applescript",
       "settings": {
-        "foreground": "#A56416"
+        "foreground": "#3778b7"
       }
     },
     {
@@ -1483,7 +1505,7 @@
       "name": "Comment",
       "scope": "punctuation.definition.comment.ts",
       "settings": {
-        "foreground": "#C7C4C2"
+        "foreground": "#969696"
       }
     },
     {
@@ -1540,32 +1562,42 @@
         "meta.namespace.declaration"
       ],
       "settings": {
-        "foreground": "#b052a1"
+        "foreground": "#A56416"
       }
     },
     {
-      "scope": ["meta.object-literal.key"],
+      "scope": [
+        "meta.object-literal.key"
+      ],
       "settings": {
         "foreground": "#428226"
       }
     },
     {
-      "scope": ["entity.name.tag"],
+      "scope": [
+        "entity.name.tag"
+      ],
       "settings": {
         "foreground": "#a56416"
       }
     },
     {
-      "scope": ["xentity.other.attribute-name"],
+      "scope": [
+        "xentity.other.attribute-name"
+      ],
       "settings": {
         "foreground": "#8959A8"
       }
     },
     {
-      "scope": ["comment.line", "comment.block"],
+      "scope": [
+        "comment.line",
+        "comment.block"
+      ],
       "settings": {
         "foreground": "#969696"
       }
     }
-  ]
+  ],
+  "type": "light"
 }
