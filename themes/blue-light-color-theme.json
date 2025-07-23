@@ -1,6 +1,6 @@
 {
   "colors": {
-    "activityBar.background": "#f8f8f8",
+    "activityBar.background": "#f0f3f4",
     "activityBar.foreground": "#aaaaaa",
     "activityBarBadge.background": "#007acc",
     "activityBarBadge.foreground": "#ffffff",
@@ -35,8 +35,8 @@
     "editorError.foreground": "#A56416",
     "editorGroup.border": "#ffffff",
     "editorGroup.dropBackground": "#f1f1f1",
-    "editorGroupHeader.noTabsBackground": "#f8f8f8",
-    "editorGroupHeader.tabsBackground": "#f8f8f8",
+    "editorGroupHeader.noTabsBackground": "#f0f3f4",
+    "editorGroupHeader.tabsBackground": "#f0f3f4",
     "editorGroupHeader.tabsBorder": "#ffffff",
     "editorGutter.addedBackground": "#428226",
     "editorGutter.deletedBackground": "#A56416",
@@ -108,7 +108,7 @@
     "sideBarSectionHeader.background": "#e8e8e8",
     "sideBarSectionHeader.foreground": "#5b7685",
     "sideBarTitle.foreground": "#007acc",
-    "statusBar.background": "#f8f8f8",
+    "statusBar.background": "#f0f3f4",
     "statusBar.debuggingBackground": "#b052a1",
     "statusBar.debuggingForeground": "#ffffff",
     "statusBar.foreground": "#6b6b6b",
@@ -121,7 +121,7 @@
     "tab.hoverBackground": "#e8e8e8",
     // seems to not work https://github.com/Microsoft/vscode-docs/issues/2264#issuecomment-445311699
     "tab.hoverBorder": "#ffffff",
-    "tab.inactiveBackground": "#f8f8f8",
+    "tab.inactiveBackground": "#f0f3f4",
     "tab.inactiveForeground": "#7d95a1",
     "tab.unfocusedHoverBorder": "#007acc",
     "terminal.ansiBlack": "#1a1a1a",
@@ -146,7 +146,7 @@
     "terminalCursor.foreground": "#3cbaef",
     "textLink.activeForeground": "#009fff",
     "textLink.foreground": "#3778b7",
-    "titleBar.activeBackground": "#f8f8f8",
+    "titleBar.activeBackground": "#f0f3f4",
     "titleBar.activeForeground": "#6b6b6b",
     "widget.shadow": "#eeeeee"
   },
