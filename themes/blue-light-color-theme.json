@@ -157,6 +157,9 @@
     "function.definition": {
       "bold": true
     },
+    "function.declaration": {
+      "bold": true
+    },
     "keyword": "#3778b7",
     "method.definition": {
       "bold": true
@@ -195,7 +198,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#969696"
+        "foreground": "#96a696"
       }
     },
     {
@@ -1506,7 +1509,7 @@
       "name": "Comment",
       "scope": "punctuation.definition.comment.ts",
       "settings": {
-        "foreground": "#969696"
+        "foreground": "#96a696"
       }
     },
     {
@@ -1596,7 +1599,15 @@
         "comment.block"
       ],
       "settings": {
-        "foreground": "#969696"
+        "foreground": "#96a696"
+      }
+    },
+    {
+      "scope": [
+        "source.rust"
+      ],
+      "settings": {
+        "foreground": "#214666"
       }
     }
   ],
