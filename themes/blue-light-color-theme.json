@@ -154,10 +154,10 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "function": "#296e0b",
-    "function.definition": {
+    "function.declaration": {
       "bold": true
     },
-    "function.declaration": {
+    "function.definition": {
       "bold": true
     },
     "keyword": "#3778b7",
@@ -167,9 +167,13 @@
     "namespace": "#694D79",
     "type.defaultLibrary": "#A56416",
     "type.definition": "#A56416",
-    "type.interface": "#A65683",
     "type.definition.interface": "#A65683",
+    "type.interface": "#A65683",
     "variable.readonly": {
+      "bold": true,
+      "foreground": "#0049A9"
+    },
+    "enumMember": {
       "bold": true,
       "foreground": "#0049A9"
     },
@@ -267,7 +271,7 @@
     },
     {
       "name": "Keyword",
-      "scope": "keyword",
+      "scope": "keyword, keyword.other.rust",
       "settings": {
         "foreground": "#3778b7"
       }
