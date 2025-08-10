@@ -192,12 +192,12 @@
             "font_weight": null
           },
           "comment": {
-            "color": "#969696",
+            "color": "#96a696",
             "font_style": null,
             "font_weight": null
           },
           "comment.doc": {
-            "color": "#969696",
+            "color": "#96a696",
             "font_style": null,
             "font_weight": null
           },
@@ -217,19 +217,19 @@
             "font_weight": null
           },
           "emphasis": {
-            "color": "#b052a1",
+            "color": "#A56416",
             "font_style": null,
             "font_weight": null
           },
           "emphasis.strong": {
-            "color": "#b052a1",
+            "color": "#A56416",
             "font_style": null,
             "font_weight": 700
           },
           "enum": {
-            "color": "#A56416",
+            "color": "#0049A9",
             "font_style": null,
-            "font_weight": null
+            "font_weight": 700
           },
           "function": {
             "color": "#296e0b",
@@ -257,7 +257,7 @@
             "font_weight": null
           },
           "link_uri": {
-            "color": "#3778b7",
+            "color": "#214666",
             "font_style": null,
             "font_weight": null
           },
@@ -337,7 +337,7 @@
             "font_weight": null
           },
           "string.escape": {
-            "color": "#969696",
+            "color": "#96a696",
             "font_style": null,
             "font_weight": null
           },
@@ -361,6 +361,11 @@
             "font_style": null,
             "font_weight": null
           },
+          "tag.doctype": {
+            "color": "#214666",
+            "font_style": null,
+            "font_weight": null
+          },
           "text.literal": {
             "color": "#A56416",
             "font_style": null,
@@ -380,6 +385,11 @@
             "color": "#214666",
             "font_style": null,
             "font_weight": null
+          },
+          "variable.special": {
+            "color": "#0049A9",
+            "font_style": null,
+            "font_weight": 700
           },
           "variant": {
             "color": "#3778b7",

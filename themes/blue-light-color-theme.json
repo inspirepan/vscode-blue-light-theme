@@ -160,6 +160,9 @@
     "function.definition": {
       "bold": true
     },
+    "method.declaration": {
+      "bold": true
+    },
     "keyword": "#3778b7",
     "method.definition": {
       "bold": true
