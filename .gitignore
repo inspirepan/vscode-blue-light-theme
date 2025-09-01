@@ -1,3 +1,4 @@
 node_modules
 *.vsix
 .klaude
+.DS_Store
