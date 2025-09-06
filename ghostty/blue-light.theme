@@ -16,7 +16,7 @@ palette = 2=#428226
 palette = 3=#a56416
 palette = 4=#3778b7
 palette = 5=#b052a1
-palette = 6=#479a9f
+palette = 6=#217c7b
 palette = 7=#214666
 
 # Bright colors (8-15)
@@ -26,5 +26,5 @@ palette = 10=#428226
 palette = 11=#a56416
 palette = 12=#3778b7
 palette = 13=#b052a1
-palette = 14=#479a9f
+palette = 14=#217c7b
 palette = 15=#214666
