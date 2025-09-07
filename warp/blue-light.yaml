@@ -1,14 +1,14 @@
 name: Blue Light Theme
 accent: '#007acc'
 cursor: '#00bbec'
-background: '#ffffff'
+background: '#fffbed'
 foreground: '#214666'
 details: lighter
 terminal_colors:
   bright:
     black: '#9b9b9b'
     blue: '#3778b7'
-    cyan: '#479a9f'
+    cyan: #217c7b
     green: '#428226'
     magenta: '#b052a1'
     red: '#A51616'
