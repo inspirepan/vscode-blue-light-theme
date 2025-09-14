@@ -176,6 +176,10 @@
       "bold": true,
       "foreground": "#0049A9"
     },
+    "variable.readonly:typescript": {
+      "bold": false,
+      "foreground": "#0049A9"
+    },
     "enumMember": {
       "bold": true,
       "foreground": "#0049A9"
