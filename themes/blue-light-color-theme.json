@@ -141,7 +141,7 @@
     "terminal.ansiWhite": "#9b9b9b",
     "terminal.ansiYellow": "#a56416",
     "terminal.background": "#fdfefc",
-    "terminal.foreground": "#6b1010",
+    "terminal.foreground": "#1a1a1a",
     "terminalCursor.background": "#fdfefc",
     "terminalCursor.foreground": "#3cbaef",
     "textLink.activeForeground": "#009fff",
@@ -176,8 +176,8 @@
       "bold": true,
       "foreground": "#0049A9"
     },
-    "variable.readonly:typescript": {
-      "bold": false,
+    "property.readonly": {
+      "bold": true,
       "foreground": "#0049A9"
     },
     "enumMember": {
