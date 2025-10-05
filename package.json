@@ -21,6 +21,11 @@
                 "label": "Blue Light Theme",
                 "uiTheme": "vs",
                 "path": "./themes/blue-light-color-theme.json"
+            },
+            {
+                "label": "Blue Light Cursor Theme",
+                "uiTheme": "vs",
+                "path": "./themes/blue-light-cursor-color-theme.json"
             }
         ]
     },
