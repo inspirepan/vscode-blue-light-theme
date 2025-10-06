@@ -343,18 +343,9 @@
     "operatorOverload": {
       "foreground": "#141414AD"
     },
-    "property": {
-      "foreground": "#6049B3"
-    },
-    "property.declaration": {
-      "foreground": "#6049B3"
-    },
     "property.readonly": {
       "bold": true,
       "foreground": "#0049A9"
-    },
-    "selfParameter": {
-      "foreground": "#A65683"
     },
     "type": {
       "foreground": "#206595"
