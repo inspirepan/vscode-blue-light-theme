@@ -295,17 +295,8 @@
     "*.decorator:python": {
       "foreground": "#1F8A65"
     },
-    "builtinConstant.readonly.builtin:python": {
-      "foreground": "#6F9BA6"
-    },
-    "class.builtin": {
-      "foreground": "#6F9BA6"
-    },
     "class.decorator.builtin:python": {
       "foreground": "#1F8A65"
-    },
-    "class.typeHint": {
-      "foreground": "#6F9BA6"
     },
     "enumMember": {
       "bold": true,
@@ -313,9 +304,6 @@
     },
     "function": {
       "foreground": "#1F8A65"
-    },
-    "function.builtin": {
-      "foreground": "#6F9BA6"
     },
     "function.declaration": {
       "bold": true
@@ -459,7 +447,7 @@
       "name": "Built-in constant",
       "scope": "constant.language",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -530,7 +518,7 @@
       "name": "this",
       "scope": "this.class.meta",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -586,14 +574,14 @@
       "name": "Placeholder Names",
       "scope": "constant.language.placeholder.karyscript",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
       "name": "Tag Children",
       "scope": "meta.jsx.children",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -614,7 +602,7 @@
       "name": "HTML String",
       "scope": "string.quoted.single.html, string.quoted.double.html, string.html",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -642,7 +630,7 @@
       "name": "markdown code",
       "scope": "markup.fenced_code.block.markdown",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -670,7 +658,7 @@
       "name": "Pageman Section Commands",
       "scope": "constant.language.pageman-parts.pageman",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -761,7 +749,7 @@
       "name": "CSS property",
       "scope": "support.type.property-name.css",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -873,7 +861,7 @@
       "name": "Math properties",
       "scope": "support.constant.property.math",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -965,7 +953,7 @@
       "name": "Builtin Types",
       "scope": "support.type.builtin",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -1000,7 +988,7 @@
       "name": "JavaScript support class",
       "scope": "support.class",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -1042,7 +1030,7 @@
       "name": "TypeScript Primitive Types",
       "scope": "support.type.primitive",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -1084,7 +1072,7 @@
       "name": "Ruby Vars",
       "scope": "variable.ruby",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -1280,7 +1268,7 @@
       "name": "C Member Variable",
       "scope": "variable.other.member.c",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -1301,7 +1289,7 @@
       "name": "YAML Tag namespace",
       "scope": "name.tag.out.plain.unquoted.string.entity.yaml",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -1385,7 +1373,7 @@
       "name": "PEG Sets",
       "scope": "declaration.keyword.pegjs",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -1399,7 +1387,7 @@
       "name": "PHP Strings and Texts",
       "scope": "meta.string-contents.quoted.single.php, meta.string-contents.quoted.double.php, constant.language.php",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -1483,7 +1471,7 @@
       "name": "F-Shrap Modules",
       "scope": "entity.name.section.fsharp",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -1581,7 +1569,7 @@
       "name": "Pseudo Class",
       "scope": "meta.property-list.scss",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -1735,7 +1723,7 @@
       "name": "JSX String",
       "scope": "jsx.children.objectliteral.expression.embedded.tag.string.block",
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
@@ -1779,7 +1767,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#428226"
+        "foreground": "#1F8A65"
       }
     },
     {
