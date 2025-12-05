@@ -1,18 +1,18 @@
 # Blue Light Theme for Ghostty
 # Based on the Blue Light VS Code theme
 
-background = #f3f3f3
+background = #ededed
 foreground = #332320
 cursor-color = #3C7CAB
-cursor-text = #F3F3F3
-selection-background = #E0E0E0
+cursor-text = #ededed
+selection-background = #d0d0d0
 selection-foreground = #555555
 
 # Normal colors (0-7)
 palette = 0=#555555
 palette = 1=#CF2D56
 palette = 2=#1F8A65
-palette = 3=#A16900
+palette = 3=#A15900
 palette = 4=#3C7CAB
 palette = 5=#B8448B
 palette = 6=#4C7F8C
