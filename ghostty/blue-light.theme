@@ -16,10 +16,10 @@ palette = 3=#A15900
 palette = 4=#3C7CAB
 palette = 5=#B8448B
 palette = 6=#4C7F8C
-palette = 7=#555555
+palette = 7=#d0d0d0
 
 # Bright colors (8-15)
-palette = 8=#9b9b9b
+palette = 8=#888888
 palette = 9=#E75E78
 palette = 10=#55A583
 palette = 11=#C08532

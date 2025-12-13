@@ -1,25 +1,25 @@
 name: Blue Light Theme
 accent: '#3C7CAB'
 cursor: '#3C7CAB'
-background: '#F3F3F3'
-foreground: '#214666'
+background: '#f7f7f8'
+foreground: '#434640'
 details: lighter
 terminal_colors:
   bright:
-    black: '#9b9b9b'
+    black: '#888888'
     blue: '#6299C3'
     cyan: '#6F9BA6'
     green: '#55A583'
     magenta: '#D06BA6'
     red: '#E75E78'
-    white: '#FFFFFF'
+    white: '#9b9b9b'
     yellow: '#C08532'
   normal:
-    black: '#214666'
+    black: '#555555'
     blue: '#3C7CAB'
     cyan: '#4C7F8C'
     green: '#1F8A65'
     magenta: '#B8448B'
     red: '#CF2D56'
-    white: '#FCFCFC'
-    yellow: '#A16900'
+    white: '#d0d0d0'
+    yellow: '#A15900'
