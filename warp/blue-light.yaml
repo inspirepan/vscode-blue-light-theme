@@ -1,8 +1,8 @@
 name: Blue Light Theme
-accent: '#3C7CAB'
-cursor: '#3C7CAB'
-background: '#f7f7f8'
-foreground: '#434640'
+accent: '#3C7CBB'
+cursor: '#3C7CBB'
+background: '#fdfeff'
+foreground: '#444444'
 details: lighter
 terminal_colors:
   bright:
@@ -16,10 +16,10 @@ terminal_colors:
     yellow: '#C08532'
   normal:
     black: '#555555'
-    blue: '#3C7CAB'
-    cyan: '#4C7F8C'
+    blue: '#3C7CBB'
+    cyan: '#3C7F8C'
     green: '#1F8A65'
     magenta: '#B8448B'
     red: '#CF2D56'
     white: '#d0d0d0'
-    yellow: '#A15900'
+    yellow: '#A16900'
